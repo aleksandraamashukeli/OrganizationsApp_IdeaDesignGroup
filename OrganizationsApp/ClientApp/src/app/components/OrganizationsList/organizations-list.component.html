@@ -1,0 +1,52 @@
+<div class="container d-flex flex-column align-items-center">
+  <h2>Organizations</h2>
+  <div class="search_box">
+    <input type="text" [(ngModel)]="searchString" (input)="search()" placeholder="search organizations" />
+    <div class="d-flex m-2 align-items-center justify-content-center"> or <a class="add-link" [routerLink]="['/organizations/create']">Add New </a> </div>
+  </div>
+
+
+  <div class="organizations-container" *ngIf="$organizations | async ">
+    <div class="organization" *ngFor="let organization of organizations">
+      <p>
+        {{organization.Name}}
+      </p>
+      <p class="address-activitie">
+        {{organization.Activitie}}, {{organization.Address}}
+      </p>
+      <p (click)="OpenPeoplePanel(organization.Id,organization.Name)" class="add-person-link">Add Person to Organization</p>
+
+      <div class="d-flex edit-buttons">
+        <i routerLink="/organizations/edit/{{organization.Id}}" class="fas fa-edit"></i>
+        <i (click)="delete(organization.Id)" class="fas fa-trash"></i>
+      </div>
+    </div>
+  </div>
+
+
+
+  <div *ngIf="organizationCount" class="d-flex">
+    <div (click)="changePage(page)" [ngClass]="page == pageNumber ? 'currentPage' : ' '  " class="page-dot" *ngFor="let page of counter(organizationCount)">
+
+    </div>
+  </div>
+
+  <div *ngIf="peoplePanelIsOpen">
+    <div *ngIf="$organizationPeople | async " class="add-person-container">
+      <p>add person to {{selectedOrganizationName}}</p>
+      <div class="d-flex flex-wrap w-100 justify-content-center">
+        <div class="person" [ngClass]="person.Id == selectedPerson.Id ? 'selected_person' : ' '  " (click)="select(person.Id)" *ngFor="let person of organizationPeople">
+          {{person.FirstName}} {{person.LastName}}
+        </div>
+      </div>
+      <button *ngIf="organizationPeople.length > 0; else notAvailable" class="btn btn-success" (click)="addPersonToOrganization()"> Add </button>
+      <ng-template #notAvailable>
+        People are not available or are already added.
+      </ng-template>
+    </div>
+  </div>
+
+</div>
+
+
+ 

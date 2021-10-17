@@ -1,0 +1,13 @@
+D:\sirishotka\OrganizationsApp\Infrastructure\Infrastructure.EF\bin\Debug\netcoreapp3.1\Infrastructure.EF.deps.json
+D:\sirishotka\OrganizationsApp\Infrastructure\Infrastructure.EF\bin\Debug\netcoreapp3.1\Infrastructure.EF.dll
+D:\sirishotka\OrganizationsApp\Infrastructure\Infrastructure.EF\obj\Debug\netcoreapp3.1\Infrastructure.EF.AssemblyInfoInputs.cache
+D:\sirishotka\OrganizationsApp\Infrastructure\Infrastructure.EF\obj\Debug\netcoreapp3.1\Infrastructure.EF.AssemblyInfo.cs
+D:\sirishotka\OrganizationsApp\Infrastructure\Infrastructure.EF\bin\Debug\netcoreapp3.1\Infrastructure.EF.pdb
+D:\sirishotka\OrganizationsApp\Infrastructure\Infrastructure.EF\bin\Debug\netcoreapp3.1\Domain.Models.dll
+D:\sirishotka\OrganizationsApp\Infrastructure\Infrastructure.EF\bin\Debug\netcoreapp3.1\Domain.Models.pdb
+D:\sirishotka\OrganizationsApp\Infrastructure\Infrastructure.EF\obj\Debug\netcoreapp3.1\Infrastructure.EF.csproj.CopyComplete
+D:\sirishotka\OrganizationsApp\Infrastructure\Infrastructure.EF\obj\Debug\netcoreapp3.1\Infrastructure.EF.dll
+D:\sirishotka\OrganizationsApp\Infrastructure\Infrastructure.EF\obj\Debug\netcoreapp3.1\Infrastructure.EF.pdb
+D:\sirishotka\OrganizationsApp\Infrastructure\Infrastructure.EF\obj\Debug\netcoreapp3.1\Infrastructure.EF.csprojAssemblyReference.cache
+D:\sirishotka\OrganizationsApp\Infrastructure\Infrastructure.EF\bin\Debug\netcoreapp3.1\Infrastructure.EF.runtimeconfig.json
+D:\sirishotka\OrganizationsApp\Infrastructure\Infrastructure.EF\bin\Debug\netcoreapp3.1\Infrastructure.EF.runtimeconfig.dev.json

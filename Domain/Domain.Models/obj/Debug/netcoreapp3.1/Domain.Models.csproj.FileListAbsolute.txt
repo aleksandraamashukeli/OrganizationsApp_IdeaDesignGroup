@@ -1,0 +1,8 @@
+D:\sirishotka\OrganizationsApp\Domain\Domain.Models\obj\Debug\netcoreapp3.1\Domain.Models.AssemblyInfoInputs.cache
+D:\sirishotka\OrganizationsApp\Domain\Domain.Models\obj\Debug\netcoreapp3.1\Domain.Models.AssemblyInfo.cs
+D:\sirishotka\OrganizationsApp\Domain\Domain.Models\bin\Debug\netcoreapp3.1\Domain.Models.deps.json
+D:\sirishotka\OrganizationsApp\Domain\Domain.Models\bin\Debug\netcoreapp3.1\Domain.Models.dll
+D:\sirishotka\OrganizationsApp\Domain\Domain.Models\bin\Debug\netcoreapp3.1\Domain.Models.pdb
+D:\sirishotka\OrganizationsApp\Domain\Domain.Models\obj\Debug\netcoreapp3.1\Domain.Models.dll
+D:\sirishotka\OrganizationsApp\Domain\Domain.Models\obj\Debug\netcoreapp3.1\Domain.Models.pdb
+D:\sirishotka\OrganizationsApp\Domain\Domain.Models\obj\Debug\netcoreapp3.1\Domain.Models.csprojAssemblyReference.cache

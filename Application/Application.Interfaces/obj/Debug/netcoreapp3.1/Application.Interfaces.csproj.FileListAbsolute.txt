@@ -1,0 +1,13 @@
+D:\sirishotka\OrganizationsApp\Application\Application.Interfaces\obj\Debug\netcoreapp3.1\Application.Interfaces.csprojAssemblyReference.cache
+D:\sirishotka\OrganizationsApp\Application\Application.Interfaces\obj\Debug\netcoreapp3.1\Application.Interfaces.AssemblyInfoInputs.cache
+D:\sirishotka\OrganizationsApp\Application\Application.Interfaces\obj\Debug\netcoreapp3.1\Application.Interfaces.AssemblyInfo.cs
+D:\sirishotka\OrganizationsApp\Application\Application.Interfaces\bin\Debug\netcoreapp3.1\Application.Interfaces.deps.json
+D:\sirishotka\OrganizationsApp\Application\Application.Interfaces\bin\Debug\netcoreapp3.1\Application.Interfaces.dll
+D:\sirishotka\OrganizationsApp\Application\Application.Interfaces\bin\Debug\netcoreapp3.1\Application.Interfaces.pdb
+D:\sirishotka\OrganizationsApp\Application\Application.Interfaces\bin\Debug\netcoreapp3.1\Application.Common.dll
+D:\sirishotka\OrganizationsApp\Application\Application.Interfaces\bin\Debug\netcoreapp3.1\Domain.Models.dll
+D:\sirishotka\OrganizationsApp\Application\Application.Interfaces\bin\Debug\netcoreapp3.1\Application.Common.pdb
+D:\sirishotka\OrganizationsApp\Application\Application.Interfaces\bin\Debug\netcoreapp3.1\Domain.Models.pdb
+D:\sirishotka\OrganizationsApp\Application\Application.Interfaces\obj\Debug\netcoreapp3.1\Application.Interfaces.csproj.CopyComplete
+D:\sirishotka\OrganizationsApp\Application\Application.Interfaces\obj\Debug\netcoreapp3.1\Application.Interfaces.dll
+D:\sirishotka\OrganizationsApp\Application\Application.Interfaces\obj\Debug\netcoreapp3.1\Application.Interfaces.pdb

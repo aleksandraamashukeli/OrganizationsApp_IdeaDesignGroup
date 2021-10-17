@@ -1,0 +1,34 @@
+<div  *ngIf="person$ | async ">
+
+  <div class=" edit-buttons  d-flex justify-content-end">
+    <p routerLink="/people/edit/{{person.Id}}" class="bg-green">edit <i class="fas fa-edit"></i></p>
+    <p class="bg-red" (click)="delete(person.Id)">delete <i class="fas fa-trash"></i></p>
+  </div>
+  <div class=" w-100 d-flex flex-column align-items-center">
+    <div class="image">
+      <i class="fas fa-user"></i>
+    </div>
+    <p class="name">{{person.FirstName}} {{person.LastName}}</p>
+    <p>{{person.PersonalId}}</p>
+    <p class="gender-age">{{genders[person.Gender].key}} , {{person.BirthDay | date: 'dd/MM/yyyy'}}</p>
+    
+    <div class="d-flex">
+      <p class="tag"><i class="fas fa-city"></i>  {{cities[person.City].key}}</p>
+      <p class="tag"><i class="fas fa-phone"></i>  {{person.PhoneNumber}}</p>
+    </div>
+
+
+    <div class="w-100">
+      <h4>related organizations:</h4>
+      <div class="organizations" *ngIf="organizations$ | async " >
+        <div class="organization" *ngFor="let organization of organizations">
+          {{organization.Name}}
+          <p>{{organization.Activitie}}; {{organization.Address}}</p>
+
+        </div>
+
+    </div>
+  </div>
+
+</div>
+  </div>

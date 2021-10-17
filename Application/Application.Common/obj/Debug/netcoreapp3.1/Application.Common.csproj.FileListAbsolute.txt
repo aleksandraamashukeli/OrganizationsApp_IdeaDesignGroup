@@ -1,0 +1,11 @@
+D:\sirishotka\OrganizationsApp\Application\Application.Common\bin\Debug\netcoreapp3.1\Application.Common.deps.json
+D:\sirishotka\OrganizationsApp\Application\Application.Common\bin\Debug\netcoreapp3.1\Application.Common.dll
+D:\sirishotka\OrganizationsApp\Application\Application.Common\obj\Debug\netcoreapp3.1\Application.Common.AssemblyInfoInputs.cache
+D:\sirishotka\OrganizationsApp\Application\Application.Common\obj\Debug\netcoreapp3.1\Application.Common.AssemblyInfo.cs
+D:\sirishotka\OrganizationsApp\Application\Application.Common\obj\Debug\netcoreapp3.1\Application.Common.csprojAssemblyReference.cache
+D:\sirishotka\OrganizationsApp\Application\Application.Common\bin\Debug\netcoreapp3.1\Application.Common.pdb
+D:\sirishotka\OrganizationsApp\Application\Application.Common\bin\Debug\netcoreapp3.1\Domain.Models.dll
+D:\sirishotka\OrganizationsApp\Application\Application.Common\bin\Debug\netcoreapp3.1\Domain.Models.pdb
+D:\sirishotka\OrganizationsApp\Application\Application.Common\obj\Debug\netcoreapp3.1\Application.Common.csproj.CopyComplete
+D:\sirishotka\OrganizationsApp\Application\Application.Common\obj\Debug\netcoreapp3.1\Application.Common.dll
+D:\sirishotka\OrganizationsApp\Application\Application.Common\obj\Debug\netcoreapp3.1\Application.Common.pdb

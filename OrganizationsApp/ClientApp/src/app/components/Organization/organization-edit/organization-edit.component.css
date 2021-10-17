@@ -1,0 +1,47 @@
+.organization-form {
+  margin: 5px;
+  width: 100%;
+  color: white;
+  padding: 10px;
+  display: flex;
+  border-radius: 10px;
+  background: rgb(89, 139, 232);
+  box-shadow: 4px 4px 10px rgba(89, 139, 232, 0.55);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.group {
+  width: 100%;
+  display: flex;
+  margin: 10px;
+  justify-content: start;
+  align-items: center;
+}
+
+  .group .control[type="text"] {
+    outline: none;
+    background: rgba(255, 255, 255, 0.55);
+    border-radius: 12px;
+    width: 100%;
+    padding: 7px;
+    border: none;
+  }
+
+button {
+  cursor: pointer;
+  border: none;
+  background: rgb(46, 119, 255);
+  color: white;
+  width: 100px;
+  border-radius: 6px;
+  transition: all 0.2s ease;
+}
+
+  button:hover {
+    transform: scale(1.1)
+  }
+  .disabled{
+      display:none;
+  }

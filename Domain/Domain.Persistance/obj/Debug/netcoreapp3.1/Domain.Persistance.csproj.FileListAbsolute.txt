@@ -1,0 +1,13 @@
+D:\sirishotka\OrganizationsApp\Domain\Domain.Persistance\bin\Debug\netcoreapp3.1\Domain.Persistance.deps.json
+D:\sirishotka\OrganizationsApp\Domain\Domain.Persistance\bin\Debug\netcoreapp3.1\Domain.Persistance.dll
+D:\sirishotka\OrganizationsApp\Domain\Domain.Persistance\bin\Debug\netcoreapp3.1\Domain.Persistance.pdb
+D:\sirishotka\OrganizationsApp\Domain\Domain.Persistance\bin\Debug\netcoreapp3.1\Domain.Models.dll
+D:\sirishotka\OrganizationsApp\Domain\Domain.Persistance\bin\Debug\netcoreapp3.1\Infrastructure.EF.dll
+D:\sirishotka\OrganizationsApp\Domain\Domain.Persistance\bin\Debug\netcoreapp3.1\Infrastructure.EF.pdb
+D:\sirishotka\OrganizationsApp\Domain\Domain.Persistance\bin\Debug\netcoreapp3.1\Domain.Models.pdb
+D:\sirishotka\OrganizationsApp\Domain\Domain.Persistance\obj\Debug\netcoreapp3.1\Domain.Persistance.csprojAssemblyReference.cache
+D:\sirishotka\OrganizationsApp\Domain\Domain.Persistance\obj\Debug\netcoreapp3.1\Domain.Persistance.AssemblyInfoInputs.cache
+D:\sirishotka\OrganizationsApp\Domain\Domain.Persistance\obj\Debug\netcoreapp3.1\Domain.Persistance.AssemblyInfo.cs
+D:\sirishotka\OrganizationsApp\Domain\Domain.Persistance\obj\Debug\netcoreapp3.1\Domain.Persistance.csproj.CopyComplete
+D:\sirishotka\OrganizationsApp\Domain\Domain.Persistance\obj\Debug\netcoreapp3.1\Domain.Persistance.dll
+D:\sirishotka\OrganizationsApp\Domain\Domain.Persistance\obj\Debug\netcoreapp3.1\Domain.Persistance.pdb

@@ -1,0 +1,24 @@
+<div class="container d-flex flex-column align-items-center">
+  <h2>People</h2>
+  <div class="search_box">
+    <input type="text" [(ngModel)]="searchString" (input)="search()"  placeholder="search people" />
+    <div class="d-flex m-2 align-items-center justify-content-center"> or    <a class="add-link" [routerLink]="['/people/create']">Add New </a></div>
+  </div>
+
+
+  <div class="people-container" *ngIf="$people | async ">
+    <div class="person" *ngFor="let person of people">
+      <p>
+        {{person.FirstName}} {{person.LastName}}
+      </p>
+
+      <p class="profile-link" routerLink="/people/{{person.Id}}">View Profile</p>
+    </div>
+
+  </div>
+  <div *ngIf="personCount" class="d-flex">
+   <div (click)="changePage(page)"  [ngClass]="page == pageNumber ? 'currentPage' : ' '  "  class="page-dot" *ngFor="let page of counter(personCount)">
+     
+   </div>
+  </div>
+</div>

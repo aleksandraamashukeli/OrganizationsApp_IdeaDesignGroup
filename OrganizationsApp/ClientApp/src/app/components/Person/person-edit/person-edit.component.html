@@ -1,0 +1,47 @@
+<div class="container">
+  <h3>Edit Person</h3>
+
+     <p class="text-center text-danger font-weight-bold m-3">{{errorMsg}}<p>
+    <form [formGroup]="personForm" *ngIf="person$ | async " class="person-form">
+
+      <div class="group">
+        <input type="text" formControlName="firstName" class="control" placeholder="FirstName">
+      </div>
+
+      <div class="group">
+        <input type="text" formControlName="lastName" class="control" placeholder="LastName">
+      </div>
+
+      <div class="group">
+        <input type="text" formControlName="personalId" class="control" placeholder="Personal Id">
+      </div>
+
+
+      <div class="group">
+        <input type="number" formControlName="phoneNumber" class="control" placeholder="Phone number">
+      </div>
+
+
+      <div class="group">
+        birthday
+        <input type="date" formControlName="birthday" class="control" placeholder="Birthday">
+      </div>
+
+      <div class="group">
+        Gender
+        <select class="custom-select" formControlName="gender">
+          <option value={{gender.value}} *ngFor="let gender of genders">{{gender.key}}</option>
+        </select>
+      </div>
+
+      <div class="group">
+        City
+        <select class="custom-select" formControlName="city">
+          <option value={{city.value}} *ngFor="let city of citys">{{city.key}}</option>
+        </select>
+      </div>
+
+
+      <button (click)="edit()" [ngClass]="personForm.valid == false ? 'disabled' : ' ' " type="button">Edit</button>
+    </form>
+</div>
